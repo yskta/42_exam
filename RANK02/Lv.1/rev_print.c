@@ -1,3 +1,4 @@
+//OK
 /*
 Assignment name  : rev_print
 Expected files   : rev_print.c
@@ -29,6 +30,6 @@ int main(int argc, char *argv[])
         while(i)
             write(1, &argv[1][--i], 1);
     }
-    write(1, "\n", 1);
+    write(1, "\n", 1);//改行を忘れない。
 	return (0);
 }

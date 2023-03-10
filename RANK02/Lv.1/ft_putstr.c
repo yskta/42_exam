@@ -1,3 +1,4 @@
+//確認OK
 /*
 Assignment name  : ft_putstr
 Expected files   : ft_putstr.c

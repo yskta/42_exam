@@ -1,3 +1,4 @@
+//確認OK
 /*
 Assignment name  : fizzbuzz
 Expected files   : fizzbuzz.c
