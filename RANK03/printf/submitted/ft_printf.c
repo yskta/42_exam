@@ -6,7 +6,7 @@
 /*   By: yokitaga <yokitaga@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/27 18:46:42 by yokitaga          #+#    #+#             */
-/*   Updated: 2022/10/27 18:46:47 by yokitaga         ###   ########.fr       */
+/*   Updated: 2023/03/11 08:50:30 by yokitaga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,4 +67,13 @@ int	ft_printf(const char *fmt, ...)
 	count = ft_count(ap, fmt);
 	va_end(ap);
 	return (count);
+}
+
+int main(void)
+{
+	char *p = "hello";
+	int i = 42;
+
+	ft_printf("hello %s, %d\n", p, i);
+	return (0);
 }
