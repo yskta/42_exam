@@ -13,7 +13,7 @@ int get_digit(char c, int digits_in_base)
 	if (digits_in_base <= 10)
 		max_digit = digits_in_base + '0';//0~9 char cと比較
 	else
-		max_digit = digits_in_base - 10 + 'a';//a~f 10~15
+		max_digit = 'a' + (digits_in_base - 10);//a~f 10~15
 
 	if (c >= '0' && c <= '9' && c <= max_digit)
 		return (c - '0');
